@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
 
  trait_dragonblooded:0 "Dragon-Blooded"
  trait_dragonblooded_desc:0 "One of the Terrestrial Exalted, the Survivors of the Age of Legends, the Terrestrial Exalted are those with elemental power flowing in their veins, the Exalted of Gaia."
@@ -34,3 +34,4 @@ l_english:
  trait_essence_9_desc:0 "Having reached points not seen since the Age of Legends and Dreams, this Exalt is a God among Men, a Dragon amidst a den of sheep."
  trait_essence_10:0 "Essence 10"
  trait_essence_10_desc:0 "A God in Mortal flesh is still a God."
+ 
