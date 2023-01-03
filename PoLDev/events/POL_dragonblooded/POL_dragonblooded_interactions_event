@@ -1,0 +1,43 @@
+POL_exaltation_interactions.1 = {
+    type = character_event
+	title = POL_exaltation_interactions.1.t
+	desc = POL_exaltation_interactions.1.desc
+	theme = witchcraft
+	
+	left_portrait = {
+	    character = root
+		animation = stress
+	}
+	right_portrait = scope:dynast_child
+	
+	option = {
+	    name = POD_exaltation_interactions.1.option.a
+		
+		add_stress = minor_stress_gain
+		add_piety = minor_piety_loss
+		
+		hidden_effect = {
+			if = {
+				limit = { scope:dynast_child = { has_character_flag = will_have_exaltation } }
+				send_interface_toast = {
+					title = POL_exaltation_interactions.1.a.sucess
+					left_icon = root
+					right_icon = scope:dynast_child
+					custom_tooltip = POL_exaltation_interactions.1.a.sucess.tt
+				}
+			}
+			else = {
+				send_interface_toast = {
+					title = POL_exaltation_interactions.1.a.failure
+					left_icon = root
+					right_icon = scope:kinfolk_child
+					custom_tooltip = POL_exaltation_interactions.1.a.failure.tt
+				}
+			}
+		}
+	}
+	
+	option = {
+	    name = POL_exaltation_interactions.1.option.b
+	}
+}
