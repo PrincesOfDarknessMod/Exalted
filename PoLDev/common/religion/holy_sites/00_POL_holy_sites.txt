@@ -1,0 +1,30 @@
+#Insert holy sites that don't already exist in POD here
+
+test_memphis_sin = {
+	county = c_cairo
+
+	character_modifier = {
+		name = holy_site_memphis_effect_name
+		stewardship_per_piety_level = 1
+	}
+}	
+
+test_ancona = {
+	county = c_ancona
+	
+	character_modifier = {
+		name = holy_site_ancona_effect_name
+		stress_loss_mult = 0.3
+	}		
+}	
+	
+	
+test_venice = {
+	county = c_venezia
+	
+	character_modifier = {
+		name = holy_site_venice_effect_name
+		cowed_vassal_tax_contribution_mult = 0.2
+	}		
+}	
+
