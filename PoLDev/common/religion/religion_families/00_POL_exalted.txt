@@ -1,0 +1,6 @@
+#Exalted religious family
+
+rf_exalted = {
+	piety_icon_group = "pagan"
+	doctrine_background_icon = exalted_placeholder.dds
+}
