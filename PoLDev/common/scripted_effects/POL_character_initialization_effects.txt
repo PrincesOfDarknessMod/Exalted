@@ -1,0 +1,40 @@
+﻿POL_exalted_initialization_effect = {
+	add_trait = dragonblooded
+}
+
+POL_character_initialization_for_exalted_nobles_effect = {
+	POL_exalted_initialization_effect = yes
+
+	add_character_flag = { flag = had_POD_character_initialization }
+}
+
+POL_character_initialization_for_exalted_barons_effect = {
+	POL_exalted_initialization_effect = yes
+
+
+	add_character_flag = { flag = had_POD_character_initialization }
+}
+
+POL_character_initialization_for_exalted_commoners_effect = {
+	POL_exalted_initialization_effect = yes
+
+
+	add_character_flag = { flag = had_POD_character_initialization }
+}
+
+POL_character_exalted_faith_initialization_effect = {
+	limit = { 
+		NOR = { # Can't change faith of holy orders or Heads of Faith
+			any_held_title = {
+				is_holy_order = yes
+			}
+			AND = {
+				exists = faith.religious_head
+				faith.religious_head = this
+			}
+		}
+	}
+	
+	set_character_faith = faith:test_exalted_faith
+	
+}
