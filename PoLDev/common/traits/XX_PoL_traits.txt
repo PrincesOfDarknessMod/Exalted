@@ -10,6 +10,7 @@ dragonblooded = {
 	years_of_fertility = 205
 	
 	opposites = {
+		vampire
 		kueijin
 		ghoul
 		revenant
