@@ -1,0 +1,3 @@
+POL_is_exalted_trigger = {
+	has_trait = dragonblooded
+}
