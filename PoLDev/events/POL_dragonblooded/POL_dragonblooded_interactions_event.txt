@@ -30,7 +30,7 @@ POL_exaltation_interactions.1 = {
 				send_interface_toast = {
 					title = POL_exaltation_interactions.1.a.failure
 					left_icon = root
-					right_icon = scope:kinfolk_child
+					right_icon = scope:dynast_child
 					custom_tooltip = POL_exaltation_interactions.1.a.failure.tt
 				}
 			}
