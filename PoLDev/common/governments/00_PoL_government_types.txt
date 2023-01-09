@@ -2,7 +2,6 @@ dynast_government = {
 	create_cadet_branches = yes
 	rulers_should_have_dynasty = yes
 	regiments_prestige_as_gold = yes
-	supply_limit_mult_for_others = -1
 	royal_court = yes
 	
 	can_get_government = { 
