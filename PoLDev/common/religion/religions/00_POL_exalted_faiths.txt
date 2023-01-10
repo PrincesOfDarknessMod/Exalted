@@ -231,7 +231,7 @@ dragonblooded_silence_religion = {
 	
 		# Test faith, used Camarilla Humanity as a base
 		
-		test_exalted_faith = {
+		dragonblooded_silence_religion = {
 			#color = { 0.6 0.0 0.0 }
 			color = { 1.0 0.4 0.7 }
 			icon = db_silence
