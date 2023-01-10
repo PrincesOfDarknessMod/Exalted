@@ -251,7 +251,7 @@ exalted = {
 			doctrine = doctrine_pluralism_pluralistic 
 			
 			# Vampire tradition tenets
-			doctrine = tenet_sacred_shadows
+			doctrine = tenet_cthonic_redoubts
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_reincarnation
 			holy_order_names = {
