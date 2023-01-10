@@ -1,6 +1,6 @@
 #Exalted religious family
 
 rf_exalted = {
-	piety_icon_group = "pagan"
+	piety_icon_group = "eastern"
 	doctrine_background_icon = db_realm.dds
 }
