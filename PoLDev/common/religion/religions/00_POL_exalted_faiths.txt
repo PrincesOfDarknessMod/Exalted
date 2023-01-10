@@ -1,6 +1,6 @@
 #Exalted religions go here
 
-Exalted = {
+exalted = {
 	family = rf_exalted
 	
 	#Main Group
