@@ -1,0 +1,10 @@
+l_english: 
+
+ rf_exalted:0 "Exalted Faiths"
+
+ #Dragon-Blooded Silence Localization
+ exalted_religion:0 "Cult of Silence"
+ exalted_religion_adj:0 "Exalted"
+ exalted_religion_adherent:0 "Exalt"
+ exalted_religion_adherent_plural:0 "Exalted"
+ exalted_religion_desc:0 "The ancient heroes of bygone eras, the Exalted are here once more."
