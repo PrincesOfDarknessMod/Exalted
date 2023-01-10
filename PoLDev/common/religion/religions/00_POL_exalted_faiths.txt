@@ -251,9 +251,9 @@ exalted = {
 			doctrine = doctrine_pluralism_pluralistic 
 			
 			# Vampire tradition tenets
-			doctrine = tenet_cthonic_redoubts
-			doctrine = tenet_esotericism
-			doctrine = tenet_communal_identity
+			doctrine = tenet_sacred_lies
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_reincarnation
 			holy_order_names = {
 				{ name = "holy_order_order_of_prodigals" }
 			}
@@ -280,8 +280,8 @@ exalted = {
 			
 			# Vampire tradition tenets
 			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
-			doctrine = tenet_communal_identity
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_reincarnation
 			holy_order_names = {
 				{ name = "holy_order_order_of_prodigals" }
 			}			
