@@ -3,10 +3,10 @@
  rf_exalted:0 "Exalted Faiths"
 
  #Exalted Religion Localization
- exalted_religion:0 "Exalted Cults"
- exalted_religion_adj:0 "Illuminated"
- exalted_adherent:0 "Illuminated"
- exalted_adherent_plural:0 "Illuminated"
+ exalted:0 "Exalted Cults"
+ exalted_adj:0 "Illuminated"
+ exalted:0 "Illuminated"
+ exalted:0 "Illuminated"
  exalted_desc:0 "The myriad cults of the Exalted, the Cults of the Illuminated are the Myriad religions dedicated to the Exalted and their Scions."
 
  exalted_high_god_name:0 "Gaia"
