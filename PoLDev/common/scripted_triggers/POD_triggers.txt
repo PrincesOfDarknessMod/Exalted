@@ -24,6 +24,7 @@ has_POD_religion_group = {
 		is_in_family = rf_kueijin
 		is_in_family = rf_demons
 		is_in_family = rf_fae
+		is_in_family = rf_exalted
 	}
 }
 
