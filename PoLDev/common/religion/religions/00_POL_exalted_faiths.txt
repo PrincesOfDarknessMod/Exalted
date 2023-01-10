@@ -225,7 +225,7 @@ dragonblooded_silence_religion = {
 		GHWNamePlural = ghw_jihads
 	}	
 
-	piety_icon_group = "pagan"
+	piety_icon_group = "eastern"
 
 	faiths = {
 	
