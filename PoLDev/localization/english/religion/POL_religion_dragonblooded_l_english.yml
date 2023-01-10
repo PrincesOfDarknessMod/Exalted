@@ -3,8 +3,8 @@ l_english:
  rf_exalted:0 "Exalted Faiths"
 
  #Dragon-Blooded Silence Localization
- exalted_religion:0 "Cult of Silence"
- exalted_religion_adj:0 "Exalted"
- exalted_religion_adherent:0 "Exalt"
- exalted_religion_adherent_plural:0 "Exalted"
- exalted_religion_desc:0 "The ancient heroes of bygone eras, the Exalted are here once more."
+ dragonblooded_silence_religion:0 "Oath of Silence"
+ dragonblooded_silence_religion_adj:0 "Silenced"
+ dragonblooded_silence_religion_adherent:0 "Silenced"
+ dragonblooded_silence_religion_adherent_plural:0 "Silenced"
+ dragonblooded_silence_religion_desc:0 "The Dragon-Blooded that desire to lay low in the World of Darkness, these Dragon-Blooded focus more on survival and protecting their family over the restoration of past glories."
