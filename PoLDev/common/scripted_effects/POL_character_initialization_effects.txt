@@ -35,6 +35,6 @@ POL_character_exalted_faith_initialization_effect = {
 		}
 	}
 	
-	set_character_faith = faith:test_exalted_faith
+	set_character_faith = faith:dragonblooded_silence_religion
 	
 }
