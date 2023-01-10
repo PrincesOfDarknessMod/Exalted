@@ -1,6 +1,6 @@
 #Exalted religions go here
 
-test_exalted_religion = {
+dragonblooded_silence_religion = {
 	family = rf_exalted
 
 	doctrine = camarilla_hostility_doctrine
@@ -11,29 +11,30 @@ test_exalted_religion = {
 	doctrine = doctrine_gender_equal
 	doctrine = doctrine_theocracy_lay_clergy
 	doctrine = doctrine_pluralism_righteous
-	doctrine = doctrine_enlightenment_virtues_conscience_and_selfcontrol
+	
 	#Crimes
-	doctrine = doctrine_vampirethemasquerade_strict
-	doctrine = doctrine_vampirediablerie_crime
+	doctrine = doctrine_vampirethemasquerade_ignorant
+	doctrine = doctrine_vampirism_shunned
+	doctrine = doctrine_kueijin_accepted
+	doctrine = doctrine_vampirediablerie_ignorant
 	doctrine = doctrine_infernalism_crime
-	doctrine = doctrine_vampirethinblood_crime
-	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_vampirethinblood_ignorant
 	doctrine = doctrine_vampirefrenzy_crime
-	doctrine = doctrine_vampirebloodoath_shunned
+	doctrine = doctrine_vampirebloodoath_crime
 	doctrine = doctrine_vampireghouling_shunned
-	doctrine = doctrine_bloodsorcery_accepted
-	doctrine = doctrine_lycanthropy_crime
-	doctrine = doctrine_magicraft_crime
-	doctrine = doctrine_haunting_crime
-	doctrine = doctrine_kueijin_shunned
+	doctrine = doctrine_bloodsorcery_crime
+	doctrine = doctrine_lycanthropy_shunned
+	doctrine = doctrine_magicraft_shunned
+	doctrine = doctrine_haunting_accepted
 	doctrine = doctrine_glamour_crime
-	doctrine = doctrine_supehunting_crime
-	doctrine = doctrine_undying_shunned
-	#doctrine = doctrine_homosexuality_accepted
-	#doctrine = doctrine_adultery_men_accepted
-	#doctrine = doctrine_adultery_women_accepted
-	#doctrine = doctrine_deviancy_accepted
-	#doctrine = doctrine_witchcraft_accepted	
+	doctrine = doctrine_undying_accepted
+	doctrine = doctrine_supehunting_accepted
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_accepted
+	doctrine = doctrine_kinslaying_crime
+	doctrine = doctrine_deviancy_accepted
+	doctrine = doctrine_witchcraft_accepted	
 
 	#Marriage
 	doctrine = doctrine_concubines
@@ -48,8 +49,8 @@ test_exalted_religion = {
 	doctrine = doctrine_clerical_succession_temporal_appointment
 
 	traits = {
-		virtues = { content temperate patient }
-		sins = { wrathful gluttonous impatient }
+		virtues = { diligent lustful calm gregarious deceitful }
+		sins = { sadistic greedy paranoid lazy chaste }
 	}
 
 	custom_faith_icons = {
