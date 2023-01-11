@@ -2,5 +2,5 @@
 
 rf_exalted = {
 	piety_icon_group = "eastern"
-	doctrine_background_icon = db_realm.dds
+	doctrine_background_icon = core_tenet_banner_eastern.dds
 }
