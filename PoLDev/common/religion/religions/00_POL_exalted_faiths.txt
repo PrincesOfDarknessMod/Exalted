@@ -248,7 +248,7 @@ exalted = {
 			doctrine = doctrine_no_head
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_pluralism_pluralistic 
+			doctrine = doctrine_pluralism_righteous 
 			
 			# Vampire tradition tenets
 			doctrine = tenet_cthonic_redoubts
@@ -276,10 +276,94 @@ exalted = {
 			doctrine = doctrine_no_head
 			doctrine = doctrine_gender_equal
 			doctrine = doctrine_theocracy_lay_clergy
-			doctrine = doctrine_pluralism_pluralistic 
+			doctrine = doctrine_pluralism_righteous 
 			
 			# Vampire tradition tenets
 			doctrine = tenet_warmonger
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_reincarnation
+			holy_order_names = {
+				{ name = "holy_order_order_of_prodigals" }
+			}			
+		}
+		
+		dragonblooded_enduring = {
+			#color = { 0.6 0.0 0.0 }
+			color = { 0.9 0.6 0 }
+			icon = db_wood
+			
+			holy_site = thorns
+			holy_site = rome
+			holy_site = venice
+			holy_site = ghent
+			holy_site = praha
+
+			#Special Tolerance
+			
+			#Main Group
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_pluralism_righteous 
+			
+			# Vampire tradition tenets
+			doctrine = tenet_pursuit_of_power
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_reincarnation
+			holy_order_names = {
+				{ name = "holy_order_order_of_prodigals" }
+			}			
+		}
+		
+		dragonblooded_nomad = {
+			#color = { 0.6 0.0 0.0 }
+			color = { 0.9 0.9 0.8 }
+			icon = db_air
+			
+			holy_site = thorns
+			holy_site = rome
+			holy_site = venice
+			holy_site = ghent
+			holy_site = praha
+
+			#Special Tolerance
+			
+			#Main Group
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_pluralism_righteous 
+			
+			# Vampire tradition tenets
+			doctrine = tenet_sky_burials
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_reincarnation
+			holy_order_names = {
+				{ name = "holy_order_order_of_prodigals" }
+			}			
+		}
+		
+		dragonblooded_builder = {
+			#color = { 0.6 0.0 0.0 }
+			color = { 0.7 0.4 0.0 }
+			icon = db_water
+			
+			holy_site = thorns
+			holy_site = rome
+			holy_site = venice
+			holy_site = ghent
+			holy_site = praha
+
+			#Special Tolerance
+			
+			#Main Group
+			doctrine = doctrine_no_head
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_pluralism_righteous 
+			
+			# Vampire tradition tenets
+			doctrine = tenet_megalithic_constructions
 			doctrine = tenet_ancestor_worship
 			doctrine = tenet_reincarnation
 			holy_order_names = {
