@@ -53,27 +53,27 @@
 #Dragon-Blooded Realm Faith Localization
  dragonblooded_realm:0 "Realm Restorers"
  dragonblooded_realm_adj:0 "Realm"
- dragonblooded_realmadherent:0 "Restorer"
+ dragonblooded_realm_adherent:0 "Restorer"
  dragonblooded_realm_adherent_plural:0 "Restorers"
  dragonblooded_realm_desc:0 "Having been forced to hide in the shadows since before the Ages of Darkness, with the shattering of the Black Vault, these Exalted lead their families out of the light, to restore the mythical Realm of the distant past."
 
-#Dragon-Blooded Realm Faith Localization
- dragonblooded_enduring:0 "Realm Restorers"
- dragonblooded_realm_adj:0 "Realm"
- dragonblooded_realmadherent:0 "Restorer"
- dragonblooded_realm_adherent_plural:0 "Restorers"
- dragonblooded_realm_desc:0 "Having been forced to hide in the shadows since before the Ages of Darkness, with the shattering of the Black Vault, these Exalted lead their families out of the light, to restore the mythical Realm of the distant past."
+#Dragon-Blooded Purist Faith Localization
+ dragonblooded_enduring:0 "Cult of the Dragons"
+ dragonblooded_enduring_adj:0 "Draconic"
+ dragonblooded_enduring_adherent:0 "Dragon"
+ dragonblooded_enduring_adherent_plural:0 "Dragons"
+ dragonblooded_enduring_desc:0 "Holding true to the Immaculate Dragons, the Cult of the Dragons believes that the supernaturals of the World of Darkness are threats to creation, and like the Immaculate Dragons of old with the Anathema, the forces of darkness must be brought to heel."
 
-#Dragon-Blooded Realm Faith Localization
- dragonblooded_nomad:0 "Realm Restorers"
- dragonblooded_realm_adj:0 "Realm"
- dragonblooded_realmadherent:0 "Restorer"
- dragonblooded_realm_adherent_plural:0 "Restorers"
- dragonblooded_realm_desc:0 "Having been forced to hide in the shadows since before the Ages of Darkness, with the shattering of the Black Vault, these Exalted lead their families out of the light, to restore the mythical Realm of the distant past."
+#Dragon-Blooded Sky Faith Localization
+ dragonblooded_nomad:0 "Scions of the Great Mother"
+ dragonblooded_nomad_adj:0 "Primordial"
+ dragonblooded_nomad_adherent:0 "Scion"
+ dragonblooded_nomad_adherent_plural:0 "Scions"
+ dragonblooded_nomad_desc:0 "Putting the most emphasis on Gaia and her holy peaks, the Scions of Gaia seek to honor her and stay alive, and keep her vital lifeblood alive, and then commit it back to the earth to keep the Primordial Goddess alive and breathing."
 
-#Dragon-Blooded Realm Faith Localization
- dragonblooded_builder:0 "Realm Restorers"
- dragonblooded_realm_adj:0 "Realm"
- dragonblooded_realmadherent:0 "Restorer"
- dragonblooded_realm_adherent_plural:0 "Restorers"
- dragonblooded_realm_desc:0 "Having been forced to hide in the shadows since before the Ages of Darkness, with the shattering of the Black Vault, these Exalted lead their families out of the light, to restore the mythical Realm of the distant past."
+#Dragon-Blooded Builder Faith Localization
+ dragonblooded_builder:0 "Wardens of the New Realm"
+ dragonblooded_builder_adj:0 "Warded"
+ dragonblooded_builder_adherent:0 "Warden"
+ dragonblooded_builder_adherent_plural:0 "Wardens"
+ dragonblooded_builder_desc:0 "Believing the Realm of old cannot be made again, the Wardens instead seek to protect this new, far more prey upon world, building great works to stand the test of time, to marry the greatness of man and the greatness of Gaia."
