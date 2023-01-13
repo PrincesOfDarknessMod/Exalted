@@ -1,0 +1,526 @@
+### Exalted Duchy Buildings ###
+
+# Dragon-Blooded Manses
+dragon_manse_01 = {
+	construction_time = quick_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_1_cost
+	cost_piety = main_building_tier_1_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 0.5
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.1
+		county_opinion_add = 5
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_1
+		build_gold_cost = -0.05
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.1
+		stress_loss_mult = 0.1
+		stewardship_per_piety_level = 1
+		intrigue_per_piety_level = 1
+		martial_per_piety_level = 1
+		diplomacy_per_piety_level = 1
+		learning_per_piety_level = 1
+	}
+	
+	next_building = dragon_manse_02
+	
+	type_icon = "icon_building_leisure_palace.dds"
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_02 = {
+	construction_time = quick_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_2_cost
+	cost_piety = main_building_tier_2_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 1
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.2
+		county_opinion_add = 10
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_1
+		build_gold_cost = -0.1
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.2
+		stress_loss_mult = 0.2
+		stewardship_per_piety_level = 2
+		intrigue_per_piety_level = 2
+		martial_per_piety_level = 2
+		diplomacy_per_piety_level = 2
+		learning_per_piety_level = 2
+	}
+	
+	next_building = dragon_manse_03
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_03 = {
+	construction_time = quick_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_3_cost
+	cost_piety = main_building_tier_3_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 1.5
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.3
+		county_opinion_add = 15
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_2
+		build_gold_cost = -0.15
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.3
+		stress_loss_mult = 0.3
+		stewardship_per_piety_level = 3
+		intrigue_per_piety_level = 3
+		martial_per_piety_level = 3
+		diplomacy_per_piety_level = 3
+		learning_per_piety_level = 3
+	}
+	
+	next_building = dragon_manse_04
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_04 = {
+	construction_time = quick_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_4_cost
+	cost_piety = main_building_tier_4_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 2
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.4
+		county_opinion_add = 20
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_2
+		build_gold_cost = -0.2
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.4
+		stress_loss_mult = 0.4
+		stewardship_per_piety_level = 4
+		intrigue_per_piety_level = 4
+		martial_per_piety_level = 4
+		diplomacy_per_piety_level = 4
+		learning_per_piety_level = 4
+	}
+	
+	next_building = dragon_manse_05
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_5_cost
+	cost_piety = main_building_tier_5_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 2.5
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.5
+		county_opinion_add = 25
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_3
+		build_gold_cost = -0.25
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.5
+		stress_loss_mult = 0.5
+		stewardship_per_piety_level = 5
+		intrigue_per_piety_level = 5
+		martial_per_piety_level = 5
+		diplomacy_per_piety_level = 5
+		learning_per_piety_level = 5
+	}
+	
+	next_building = dragon_manse_06
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 20
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_06 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_6_cost
+	cost_piety = main_building_tier_6_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 3
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.6
+		county_opinion_add = 30
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_3
+		build_gold_cost = -0.3
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.6
+		stress_loss_mult = 0.6
+		stewardship_per_piety_level = 6
+		intrigue_per_piety_level = 6
+		martial_per_piety_level = 6
+		diplomacy_per_piety_level = 6
+		learning_per_piety_level = 6
+	}
+	
+	next_building = dragon_manse_07
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 60
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_07 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_7_cost
+	cost_piety = main_building_tier_7_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 3.5
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.7
+		county_opinion_add = 35
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_4
+		build_gold_cost = -0.35
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.7
+		stress_loss_mult = 0.7
+		stewardship_per_piety_level = 7
+		intrigue_per_piety_level = 7
+		martial_per_piety_level = 7
+		diplomacy_per_piety_level = 7
+		learning_per_piety_level = 7
+	}
+	
+	next_building = dragon_manse_08
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 70
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
+
+dragon_manse_08 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	can_construct = {
+	}
+	
+	is_enabled = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	show_disabled = yes
+	
+	cost_gold = expensive_building_tier_8_cost
+	cost_piety = main_building_tier_8_cost
+	
+	duchy_capital_county_modifier = {
+		development_growth_factor = 4
+	}
+	
+	county_modifier = {
+		monthly_county_control_change_add = 0.8
+		county_opinion_add = 40
+	}
+	
+	province_modifier = {
+		build_speed = great_building_build_speed_tier_4
+		build_gold_cost = -0.4
+	}
+	
+	character_modifier = {
+		knight_effectiveness_mult = 0.8
+		stress_loss_mult = 0.8
+		stewardship_per_piety_level = 8
+		intrigue_per_piety_level = 8
+		martial_per_piety_level = 8
+		diplomacy_per_piety_level = 8
+		learning_per_piety_level = 8
+	}
+
+	type = duchy_capital
+	
+	ai_value = {
+		base = 70
+		modifier = {
+			factor = 2
+			scope:holder.capital_province = this
+		}
+	}
+}
