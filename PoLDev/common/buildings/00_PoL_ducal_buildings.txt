@@ -47,11 +47,11 @@ dragon_manse_01 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.1
 		stress_loss_mult = 0.1
-		stewardship_per_piety_level = 1
-		intrigue_per_piety_level = 1
-		martial_per_piety_level = 1
-		diplomacy_per_piety_level = 1
-		learning_per_piety_level = 1
+		stewardship = 1
+		intrigue = 1
+		martial = 1
+		diplomacy = 1
+		learning = 1
 	}
 	
 	next_building = dragon_manse_02
@@ -115,11 +115,11 @@ dragon_manse_02 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.2
 		stress_loss_mult = 0.2
-		stewardship_per_piety_level = 2
-		intrigue_per_piety_level = 2
-		martial_per_piety_level = 2
-		diplomacy_per_piety_level = 2
-		learning_per_piety_level = 2
+		stewardship = 2
+		intrigue = 2
+		martial = 2
+		diplomacy = 2
+		learning = 2
 	}
 	
 	next_building = dragon_manse_03
@@ -181,11 +181,11 @@ dragon_manse_03 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.3
 		stress_loss_mult = 0.3
-		stewardship_per_piety_level = 3
-		intrigue_per_piety_level = 3
-		martial_per_piety_level = 3
-		diplomacy_per_piety_level = 3
-		learning_per_piety_level = 3
+		stewardship = 3
+		intrigue = 3
+		martial = 3
+		diplomacy = 3
+		learning = 3
 	}
 	
 	next_building = dragon_manse_04
@@ -247,11 +247,11 @@ dragon_manse_04 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.4
 		stress_loss_mult = 0.4
-		stewardship_per_piety_level = 4
-		intrigue_per_piety_level = 4
-		martial_per_piety_level = 4
-		diplomacy_per_piety_level = 4
-		learning_per_piety_level = 4
+		stewardship = 4
+		intrigue = 4
+		martial = 4
+		diplomacy = 4
+		learning = 4
 	}
 	
 	next_building = dragon_manse_05
@@ -312,11 +312,11 @@ dragon_manse_05 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.5
 		stress_loss_mult = 0.5
-		stewardship_per_piety_level = 5
-		intrigue_per_piety_level = 5
-		martial_per_piety_level = 5
-		diplomacy_per_piety_level = 5
-		learning_per_piety_level = 5
+		stewardship = 5
+		intrigue = 5
+		martial = 5
+		diplomacy = 5
+		learning = 5
 	}
 	
 	next_building = dragon_manse_06
@@ -377,11 +377,11 @@ dragon_manse_06 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.6
 		stress_loss_mult = 0.6
-		stewardship_per_piety_level = 6
-		intrigue_per_piety_level = 6
-		martial_per_piety_level = 6
-		diplomacy_per_piety_level = 6
-		learning_per_piety_level = 6
+		stewardship = 6
+		intrigue = 6
+		martial = 6
+		diplomacy = 6
+		learning = 6
 	}
 	
 	next_building = dragon_manse_07
@@ -442,11 +442,11 @@ dragon_manse_07 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.7
 		stress_loss_mult = 0.7
-		stewardship_per_piety_level = 7
-		intrigue_per_piety_level = 7
-		martial_per_piety_level = 7
-		diplomacy_per_piety_level = 7
-		learning_per_piety_level = 7
+		stewardship = 7
+		intrigue = 7
+		martial = 7
+		diplomacy = 7
+		learning = 7
 	}
 	
 	next_building = dragon_manse_08
@@ -507,11 +507,11 @@ dragon_manse_08 = {
 	character_modifier = {
 		knight_effectiveness_mult = 0.8
 		stress_loss_mult = 0.8
-		stewardship_per_piety_level = 8
-		intrigue_per_piety_level = 8
-		martial_per_piety_level = 8
-		diplomacy_per_piety_level = 8
-		learning_per_piety_level = 8
+		stewardship = 8
+		intrigue = 8
+		martial = 8
+		diplomacy = 8
+		learning = 8
 	}
 
 	type = duchy_capital
