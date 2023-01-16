@@ -250,3 +250,238 @@ dragon_army_05 = {
 	show_disabled = no
 }
 
+# Dragon Fortress
+dragon_fortress_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		fort_level = 1
+		garrison_size = 1
+	}
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		culture_likely_to_fortify_modifier = yes
+	}
+	
+	next_building = dragon_fortress_02
+	
+	show_disabled = no
+}
+
+dragon_fortress_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	province_modifier = {
+		fort_level = 2
+		garrison_size = 2
+	}
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_fortress_03
+	
+	show_disabled = no
+}
+
+dragon_fortress_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	province_modifier = {
+		fort_level = 3
+		garrison_size = 3
+		defender_advantage = 5
+	}
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_fortress_04
+	
+	show_disabled = no
+}
+
+dragon_fortress_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	province_modifier = {
+		fort_level = 6
+		garrison_size = 4
+		defender_advantage = 7
+	}
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_fortress_05
+	
+	show_disabled = no
+}
+
+dragon_fortress_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	province_modifier = {
+		fort_level = 8
+		garrison_size = 5
+		defender_advantage = 10
+	}
+
+	type_icon = "icon_structure_theodosian_walls.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	show_disabled = no
+}
+
