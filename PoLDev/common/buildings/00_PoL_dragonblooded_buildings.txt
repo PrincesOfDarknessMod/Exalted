@@ -1,3 +1,252 @@
 #####################################
 # Dragon-Blooded / Dynast Buildings #
 #####################################
+
+# Mortal Recruitment
+dragon_army_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = expensive_building_tier_1_cost
+	cost_prestige = normal_building_tier_1_cost
+	
+	levy = excellent_building_levy_tier_1
+	
+	character_modifier = {
+		knight_limit = 1
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		culture_likely_to_fortify_modifier = yes
+	}
+	
+	next_building = dragon_army_02
+	
+	show_disabled = no
+}
+
+dragon_army_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = expensive_building_tier_2_cost
+	cost_prestige = normal_building_tier_2_cost
+	
+	levy = excellent_building_levy_tier_2
+	
+	character_modifier = {
+		knight_limit = 2
+		knight_effectiveness_mult = 0.25
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_army_03
+	
+	show_disabled = no
+}
+
+dragon_army_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = expensive_building_tier_3_cost
+	cost_prestige = normal_building_tier_3_cost
+	
+	levy = excellent_building_levy_tier_3
+	
+	character_modifier = {
+		knight_limit = 3
+		knight_effectiveness_mult = 0.5
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_army_04
+	
+	show_disabled = no
+}
+
+dragon_army_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = expensive_building_tier_4_cost
+	cost_prestige = normal_building_tier_4_cost
+	
+	levy = excellent_building_levy_tier_4
+	
+	character_modifier = {
+		knight_limit = 4
+		knight_effectiveness_mult = 0.75
+		supply_capacity_mult = 2
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	next_building = dragon_army_05
+	
+	show_disabled = no
+}
+
+dragon_army_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = expensive_building_tier_5_cost
+	cost_prestige = normal_building_tier_5_cost
+	
+	levy = excellent_building_levy_tier_5
+	
+	character_modifier = {
+		knight_limit = 5
+		knight_effectiveness_mult = 1
+		supply_capacity_mult = 4
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		modifier = {
+			add = 1
+			scope:holder = {
+				culture = {
+					has_cultural_parameter = ai_more_likely_to_fortify
+				}
+			}
+		}
+	}
+	
+	show_disabled = no
+}
+
