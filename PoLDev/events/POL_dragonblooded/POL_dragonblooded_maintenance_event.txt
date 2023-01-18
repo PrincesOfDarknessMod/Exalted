@@ -16,7 +16,7 @@ POD_exaltation_maintenance.1 = {
 	}
 	
 	option = {
-		name = POD_exaltation_maintenance.2.option.a	
+		name = POL_exaltation_maintenance.2.option.a	
 		
 				
 			if = {
@@ -59,6 +59,7 @@ POD_exaltation_maintenance.1 = {
 			}
 				
 			add_trait_force_tooltip = dragonblooded
+			add_trait_force_tooltip = essence_1
 			POD_remove_wrong_supernatural_traits_effect = yes
 			POD_remove_wrong_supernatural_modifiers_effect = yes
 				
