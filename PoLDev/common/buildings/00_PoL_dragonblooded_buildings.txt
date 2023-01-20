@@ -1813,3 +1813,202 @@ dragon_den_05 = {
 	show_disabled = no
 }
 
+# House War Room
+dragon_warroom_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	character_modifier = {
+		martial = 1
+	}
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_tier_1_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_warroom_02
+	
+	show_disabled = no
+}
+
+dragon_warroom_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	character_modifier = {
+		martial = 2
+	}
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_warroom_03
+	
+	show_disabled = no
+}
+
+dragon_warroom_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	character_modifier = {
+		martial = 3
+	}
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_warroom_04
+	
+	show_disabled = no
+}
+
+dragon_warroom_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_7_cost
+	
+	character_modifier = {
+		martial = 4
+	}
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_warroom_05
+	
+	show_disabled = no
+}
+
+dragon_warroom_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_9_cost
+	
+	character_modifier = {
+		martial = 5
+	}
+
+	type_icon = "icon_structure_university_of_siena.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	show_disabled = no
+}
+
