@@ -1141,3 +1141,212 @@ dragon_library_05 = {
 	show_disabled = no
 }
 
+# Wyld Hunt Recruitment
+dragon_hunt_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.1
+		men_at_arms_cap = 1
+		men_at_arms_limit = 1
+	}
+
+	type_icon = "icon_building_royal_armory.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_tier_1_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_hunt_02
+	
+	show_disabled = no
+}
+
+dragon_hunt_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.2
+		men_at_arms_cap = 2
+		men_at_arms_limit = 2
+	}
+
+	type_icon = "icon_building_royal_armory.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_hunt_03
+	
+	show_disabled = no
+}
+
+dragon_hunt_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.3
+		men_at_arms_cap = 3
+		men_at_arms_limit = 3
+	}
+
+	type_icon = "icon_building_royal_armory.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_hunt_04
+	
+	show_disabled = no
+}
+
+dragon_hunt_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.4
+		men_at_arms_cap = 4
+		men_at_arms_limit = 4
+	}
+
+	type_icon = "icon_building_royal_armory.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_hunt_05
+	
+	show_disabled = no
+}
+
+dragon_hunt_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	character_modifier = {
+		men_at_arms_maintenance = -0.5
+		men_at_arms_cap = 5
+		men_at_arms_limit = 5
+	}
+
+	type_icon = "icon_building_royal_armory.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	show_disabled = no
+}
+
