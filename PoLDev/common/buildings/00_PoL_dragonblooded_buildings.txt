@@ -709,3 +709,230 @@ dragon_cult_05 = {
 	show_disabled = no
 }
 
+# Dragon Tithes
+dragon_taxes_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	province_modifier = {
+		build_speed = -0.1
+		build_cost_gold = -0.1
+	}
+	
+	county_modifier = {
+		monthly_income = 1
+	}
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_tier_1_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_taxes_02
+	
+	show_disabled = no
+}
+
+dragon_taxes_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	county_modifier = {
+		county_opinion_add = 10
+	}
+	
+	province_modifier = {
+		build_speed = -0.2
+		build_cost_gold = -0.2
+	}
+	
+	county_modifier = {
+		monthly_income = 2
+	}
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_taxes_03
+	
+	show_disabled = no
+}
+
+dragon_taxes_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	province_modifier = {
+		build_speed = -0.3
+		build_cost_gold = -0.3
+	}
+	
+	county_modifier = {
+		monthly_income = 3
+	}
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_taxes_04
+	
+	show_disabled = no
+}
+
+dragon_taxes_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	province_modifier = {
+		build_speed = -0.4
+		build_cost_gold = -0.4
+	}
+	
+	county_modifier = {
+		monthly_income = 4
+	}
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_taxes_05
+	
+	show_disabled = no
+}
+
+dragon_taxes_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	province_modifier = {
+		build_speed = -0.5
+		build_cost_gold = -0.5
+	
+	county_modifier = {
+		monthly_income = 5
+	}
+
+	type_icon = "icon_building_market_villages.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	show_disabled = no
+}
+
