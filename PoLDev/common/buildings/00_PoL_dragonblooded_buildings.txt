@@ -778,10 +778,6 @@ dragon_taxes_02 = {
 	
 	cost_gold = normal_building_tier_2_cost
 	
-	county_modifier = {
-		county_opinion_add = 10
-	}
-	
 	province_modifier = {
 		build_speed = -0.2
 		build_cost_gold = -0.2
