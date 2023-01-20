@@ -1350,3 +1350,247 @@ dragon_hunt_05 = {
 	show_disabled = no
 }
 
+# Dragon Arenas
+dragon_arena_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	character_modifier = {
+		heavy_cavalry_damage_mult = 0.3
+		heavy_cavalry_toughness_mult = 0.3
+		light_cavalry_damage_mult = 0.3
+		light_cavalry_toughness_mult = 0.3
+		light_cavalry_screen_mult = 0.3
+		light_cavalry_pursuit_mult = 0.3
+		archers_damage_mult = 0.15
+		skirmishers_screen_mult = 0.05
+		pikemen_toughness_mult = 0.15
+		heavy_infantry_damage_mult = 0.15
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_tier_1_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_arena_02
+	
+	show_disabled = no
+}
+
+dragon_arena_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	character_modifier = {
+		heavy_cavalry_damage_mult = 0.6
+		heavy_cavalry_toughness_mult = 0.6
+		light_cavalry_damage_mult = 0.6
+		light_cavalry_toughness_mult = 0.6
+		light_cavalry_screen_mult = 0.6
+		light_cavalry_pursuit_mult = 0.6
+		archers_damage_mult = 0.3
+		skirmishers_screen_mult = 0.1
+		pikemen_toughness_mult = 0.3
+		heavy_infantry_damage_mult = 0.3
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_arena_03
+	
+	show_disabled = no
+}
+
+dragon_arena_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	character_modifier = {
+		heavy_cavalry_damage_mult = 0.9
+		heavy_cavalry_toughness_mult = 0.9
+		light_cavalry_damage_mult = 0.9
+		light_cavalry_toughness_mult = 0.9
+		light_cavalry_screen_mult = 0.9
+		light_cavalry_pursuit_mult = 0.9
+		archers_damage_mult = 0.45
+		skirmishers_screen_mult = 0.15
+		pikemen_toughness_mult = 0.45
+		heavy_infantry_damage_mult = 0.45
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_arena_04
+	
+	show_disabled = no
+}
+
+dragon_arena_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	character_modifier = {
+		heavy_cavalry_damage_mult = 1.2
+		heavy_cavalry_toughness_mult = 1.2
+		light_cavalry_damage_mult = 1.2
+		light_cavalry_toughness_mult = 1.2
+		light_cavalry_screen_mult = 1.2
+		light_cavalry_pursuit_mult = 1.2
+		archers_damage_mult = 0.45
+		skirmishers_screen_mult = 0.2
+		pikemen_toughness_mult = 0.6
+		heavy_infantry_damage_mult = 0.6
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_arena_05
+	
+	show_disabled = no
+}
+
+dragon_arena_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	character_modifier = {
+		heavy_cavalry_damage_mult = 1.5
+		heavy_cavalry_toughness_mult = 1.5
+		light_cavalry_damage_mult = 1.5
+		light_cavalry_toughness_mult = 1.5
+		light_cavalry_screen_mult = 1.5
+		light_cavalry_pursuit_mult = 1.5
+		archers_damage_mult = 0.75
+		skirmishers_screen_mult = 0.25
+		pikemen_toughness_mult = 0.75
+		heavy_infantry_damage_mult = 0.75
+	}
+
+	type_icon = "icon_building_military_camps.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	show_disabled = no
+}
+
