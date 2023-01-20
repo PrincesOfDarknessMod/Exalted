@@ -2013,7 +2013,7 @@ dragon_warroom_05 = {
 }
 
 # House Library
-dragon_library_01 = {
+dragon_observatory_01 = {
 	construction_time = standard_construction_time
 	
 	can_construct_potential = {
@@ -2049,12 +2049,12 @@ dragon_library_01 = {
 		ai_tier_1_economical_building_preference_modifier = yes
 	}
 	
-	next_building = dragon_library_02
+	next_building = dragon_observatory_02
 	
 	show_disabled = no
 }
 
-dragon_library_02 = {
+dragon_observatory_02 = {
 	construction_time = standard_construction_time
 	
 	can_construct_potential = {
@@ -2088,12 +2088,12 @@ dragon_library_02 = {
 		ai_economical_building_preference_modifier = yes
 	}
 	
-	next_building = dragon_library_03
+	next_building = dragon_observatory_03
 	
 	show_disabled = no
 }
 
-dragon_library_03 = {
+dragon_observatory_03 = {
 	construction_time = standard_construction_time
 	
 	can_construct_potential = {
@@ -2128,12 +2128,12 @@ dragon_library_03 = {
 		ai_economical_building_preference_modifier = yes
 	}
 	
-	next_building = dragon_library_04
+	next_building = dragon_observatory_04
 	
 	show_disabled = no
 }
 
-dragon_library_04 = {
+dragon_observatory_04 = {
 	construction_time = slow_construction_time
 	
 	can_construct_potential = {
@@ -2168,12 +2168,12 @@ dragon_library_04 = {
 		ai_economical_building_preference_modifier = yes
 	}
 	
-	next_building = dragon_library_05
+	next_building = dragon_observatory_05
 	
 	show_disabled = no
 }
 
-dragon_library_05 = {
+dragon_observatory_05 = {
 	construction_time = slow_construction_time
 	
 	can_construct_potential = {
