@@ -1594,3 +1594,222 @@ dragon_arena_05 = {
 	show_disabled = no
 }
 
+# Dragon's Den
+dragon_den_01 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_1_cost
+	
+	character_modifier = {
+		dread_gain_mult = 0.3
+		powerful_vassal_opinion = 5
+		spouse_opinion = 5
+		seduce_scheme_power_mult = 0.3
+		stress_loss_mult = 0.15
+	}
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	ai_value = {
+		base = 10
+		ai_tier_1_building_modifier = yes
+		ai_general_building_modifier = yes
+		ai_tier_1_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_den_02
+	
+	show_disabled = no
+}
+
+dragon_den_02 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_2_cost
+	
+	character_modifier = {
+		dread_gain_mult = 0.6
+		powerful_vassal_opinion = 10
+		spouse_opinion = 10
+		seduce_scheme_power_mult = 0.6
+		stress_loss_mult = 0.3
+	}
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	ai_value = {
+		base = 9
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_den_03
+	
+	show_disabled = no
+}
+
+dragon_den_03 = {
+	construction_time = standard_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}	
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_3_cost
+	
+	character_modifier = {
+		dread_gain_mult = 0.9
+		powerful_vassal_opinion = 15
+		spouse_opinion = 15
+		seduce_scheme_power_mult = 0.9
+		stress_loss_mult = 0.45
+	}
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	ai_value = {
+		base = 8
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_den_04
+	
+	show_disabled = no
+}
+
+dragon_den_04 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}			
+		}	
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_4_cost
+	
+	character_modifier = {
+		dread_gain_mult = 1.2
+		powerful_vassal_opinion = 20
+		spouse_opinion = 20
+		seduce_scheme_power_mult = 1.2
+		stress_loss_mult = 0.6
+	}
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	ai_value = {
+		base = 7
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	next_building = dragon_den_05
+	
+	show_disabled = no
+}
+
+dragon_den_05 = {
+	construction_time = slow_construction_time
+	
+	can_construct_potential = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}		
+		}
+	}
+	
+	is_enabled = {
+		scope:holder = {
+			OR = {
+				has_trait = dragonblooded
+				has_trait = dynast
+			}
+		}
+	}
+	
+	cost_gold = normal_building_tier_5_cost
+	
+	character_modifier = {
+		dread_gain_mult = 1.5
+		powerful_vassal_opinion = 25
+		spouse_opinion = 25
+		seduce_scheme_power_mult = 1.5
+		stress_loss_mult = 0.75
+	}
+
+	type_icon = "icon_building_leisure_palace.dds"
+	
+	ai_value = {
+		base = 6
+		ai_general_building_modifier = yes
+		ai_economical_building_preference_modifier = yes
+	}
+	
+	show_disabled = no
+}
+
