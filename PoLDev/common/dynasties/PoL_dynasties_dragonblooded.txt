@@ -1,0 +1,98 @@
+# Dragon-Blooded Houses
+
+PoL_dragon_dynasty_buidseachan = {
+	name= "dynn_buidseachan"
+	culture = "gaelic"
+	motto = dynn_buidseachan_motto
+}
+
+PoL_dragon_dynasty_vorozhbyt = {
+	name= "dynn_vorozhbyt"
+	culture = "russian"
+	motto = dynn_vorozhbyt_motto
+}
+
+PoL_dragon_dynasty_belerac = {
+	name= "dynn_belerac"
+	culture = "french"
+	motto = dynn_belerac_motto
+}
+
+PoL_dragon_dynasty_dalca = {
+	name= "dynn_dalca"
+	culture = "magyar"
+	motto = dynn_dalca_motto
+}
+
+PoL_dragon_dynasty_chavadieu = {
+	name= "dynn_chavadieu"
+	culture = "occitan"
+	motto = dynn_chavadieu_motto
+}
+
+PoL_dragon_dynasty_afzal = {
+	name= "dynn_afzal"
+	culture = "baranis"
+	motto = dynn_afzal_motto
+}
+
+PoL_dragon_dynasty_diyarbakir = {
+	name= "dynn_diyarbakir"
+	culture = "kurdish"
+	motto = dynn_diyarbakir_motto
+}
+
+PoL_dragon_dynasty_ophris = {
+	name= "dynn_ophris"
+	culture = "romani"
+	motto = dynn_ophris_motto
+}
+
+PoL_dragon_dynasty_kidane = {
+	name= "dynn_kidane"
+	culture = "ewe"
+	motto = dynn_kidane_motto
+}
+
+PoL_dragon_dynasty_orisha = {
+	name= "dynn_orisha"
+	culture = "edo"
+	motto = dynn_orisha_motto
+}
+
+PoL_dragon_dynasty_dapaa = {
+	name= "dynn_dapaa"
+	culture = "akan"
+	motto = dynn_dapaa_motto
+}
+
+PoL_dragon_dynasty_hofstede = {
+	name= "dynn_hofstede"
+	culture = "dutch"
+	motto = dynn_hofstede_motto
+}
+
+PoL_dragon_dynasty_barkhad = {
+	name= "dynn_barkhad"
+	culture = "somali"
+	motto = dynn_barkhad_motto
+}
+
+PoL_dragon_dynasty_xia = {
+	name= "dynn_xia"
+	culture = "han"
+	motto = dynn_xia_motto
+}
+
+PoL_dragon_dynasty_burano = {
+	name= "dynn_burano"
+	culture = "persian"
+	motto = dynn_burano_motto
+}
+
+PoL_dragon_dynasty_hfawhzt = {
+	name= "dynn_hfawhzt"
+	culture = "ancientegyptian"
+	motto = dynn_hfawhzt_motto
+}
+
